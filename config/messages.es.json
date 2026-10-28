@@ -1,0 +1,25 @@
+{
+  "success": "Transacción registrada con éxito:\nTipo: {type}\nDescripción: {description}\nMonto: {amount}",
+  "usage": "Solo puedo registrar transacciones. Para registrar una, escribe por ejemplo: gasté 120.000 en Netflix.",
+  "temporaryFailure": "No pude registrar la transacción ahora. Inténtalo de nuevo en un momento.",
+  "unsupported": "Por ahora solo puedo procesar mensajes de texto y audios breves.",
+  "audioProcessing": "Recibí tu audio. Lo estoy procesando.",
+  "audioTooLong": "El audio supera el límite de 30 segundos. Envía uno más corto.",
+  "audioUnsupported": "No puedo procesar ese formato o tamaño de audio. Envía una nota de voz o un archivo de audio compatible.",
+  "audioNoSpeech": "No detecté voz en el audio. Inténtalo de nuevo hablando con claridad.",
+  "unlinkedAccount": "Tu cuenta de Telegram todavía no está habilitada. Contacta al administrador.",
+  "typeLabels": {
+    "expense": "Gasto",
+    "income": "Ingreso"
+  },
+  "httpErrors": {
+    "validation": "La solicitud no es válida.",
+    "unauthorized": "Se requiere autenticación.",
+    "forbidden": "La cuenta de Telegram no está asociada a un usuario interno.",
+    "not_found": "No se encontró el recurso solicitado.",
+    "conflict": "La solicitud entra en conflicto con el estado actual.",
+    "provider": "El servicio externo no está disponible.",
+    "persistence": "No se pudo completar la operación.",
+    "internal": "Ocurrió un error interno."
+  }
+}
